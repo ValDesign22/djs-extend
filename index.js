@@ -1,7 +1,6 @@
 const { Client } = require("discord.js");
 
-function Login(client, token) {
-    this.client = client;
+function Login(token) {
     this.token = token;
 
     this.client = new Client()

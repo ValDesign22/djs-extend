@@ -7,16 +7,17 @@ function Login(token) {
 
     this.client.login(this.token)
     .then(() => {
-        console.log(`${client.user.tag} is ready.`)
+        console.log(`${this.client.user.tag} is ready.`)
     });
 }
 
 function version() {
     const pkg = require("./package.json");
 
-    pkg.version;
+    console.log(pkg.version);
 }
 
 module.exports = {
-    Login
+    Login,
+    version
 }

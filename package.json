@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  },
+  "name": "djs-extend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord.js",
+    "djsextend",
+    "djs-extend",
+    "djs",
+    "extend"
+  ],
+  "author": "ValRedstone",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValRedstone/djs-extend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ValRedstone/djs-extend/issues"
+  },
+  "homepage": "https://github.com/ValRedstone/djs-extend#readme",
+  "description": ""
+}

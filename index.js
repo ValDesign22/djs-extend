@@ -1,5 +1,7 @@
+"use strict"
+
 module.exports = {
     version: require("./src/index").version,
-    Login: require("./src/index").Login,
+    Login: require("./src/Client/Login.js"),
     log: require("./src/index").log
 }
